@@ -1,4 +1,6 @@
-localizaTE
+localizaTE  
 ==========
-
-de novo and homology based Transposable Element annotation system
+ 
+ ---- UNDER CONSTRUCTION ----
+ 
+de novo and homology based Transposable Element annotation system  
