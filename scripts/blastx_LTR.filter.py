@@ -36,7 +36,7 @@ for line in infile.readlines():  ## Get only desired lines of the Blastn output
 infile.close()
 outfile.close()
 
-infile2=open('prueba', 'r')
+infile2=open('hits_summary', 'r')
 
 value=0				 #open dictionary using "defaultdict", which allows to use lists as values
 dictionary=defaultdict(list)
