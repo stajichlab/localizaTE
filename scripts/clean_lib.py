@@ -1,5 +1,8 @@
+#######################################
+#script for cleaning headers
+##########################################
 
-lib=open('all_TEs_cryne', 'r')
+lib=open('all_TEs_cryne', 'r')       # change here the input filename when necessary   
 
 
 for line in lib:
