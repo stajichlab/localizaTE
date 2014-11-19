@@ -10,7 +10,7 @@ from Bio.Seq import Seq
 
 
 infile=open('cryne_library.fasta', 'r')                  # Type here the name of the infile
-outfile=open('cryne_library.fasta_80_200.fasta', 'w')    # Type here the name of the outfile
+outfile=open('cryne_library_80_200.fasta', 'w')    # Type here the name of the outfile
 
 for record in SeqIO.parse(infile, 'fasta'): 
 	if len(record.seq) > 200:
